@@ -1,3 +1,7 @@
+# Author: [Daikhi Haithem]
+# Description: This script searches for specific words in large text files efficiently.
+# The provided Python script is compatible with Python 2
+
 import os
 import re
 import mmap
@@ -6,7 +10,7 @@ import mmap
 counter = 0
 
 # Word to filter (can use regular expressions)
-word_to_filter = "lolipopftp\.lolipop\.jp"
+word_to_filter = "write here word to find"
 
 # Compiled regex pattern for word matching
 pattern = re.compile(word_to_filter)
