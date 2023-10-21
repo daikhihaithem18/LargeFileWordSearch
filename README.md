@@ -1,6 +1,6 @@
 # LargeFileWordSearch
 The script can find matched words in very large files because it uses memory-mapped files, which allow it to efficiently search through files without loading the entire file into memory. 
-
+This text filtering tool is particularly useful when dealing with exceptionally large text files that standard text editors, such as Notepad, struggle to open or manipulate.
 
 **Text Filtering Tool
 Description
